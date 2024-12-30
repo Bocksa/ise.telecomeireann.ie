@@ -1,0 +1,58 @@
+﻿body {
+    background: rgb(14,30,47);
+    background: radial-gradient(circle, rgba(14,30,47,1) 0%, rgba(14,30,47,1) 0%, rgba(14,40,57,1) 100%);
+    color: white;
+    font-family: 'Alexandria', system-ui, -apple-system, sans-serif;
+}
+
+.nav-container {
+    background: rgb(14,30,47);
+    background: radial-gradient(circle, rgba(14,30,47,1) 0%, rgba(14,30,47,1) 0%, rgba(14,40,57,1) 100%);
+    padding: 15px 20px;
+    font-family: 'Alexandria', system-ui, -apple-system, sans-serif;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+    .nav-links li {
+        margin: 0 10px;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        transition: color 0.3s ease;
+    }
+
+        .nav-links a::before {
+            content: '[';
+            margin-right: 2px;
+        }
+
+        .nav-links a::after {
+            content: ']';
+            margin-left: 2px;
+        }
+
+        .nav-links a:hover {
+            color: rgba(255, 255, 255, 0.7);
+        }
