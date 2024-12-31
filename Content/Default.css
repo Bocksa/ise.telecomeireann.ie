@@ -1,4 +1,7 @@
-﻿body {
+/* Primarily written by Claude Sonnet 3.5 */
+/* Coloured, and edited by Cian McNamara */
+
+body {
     background: rgb(14,30,47);
     background: radial-gradient(circle, rgba(14,30,47,1) 0%, rgba(14,30,47,1) 0%, rgba(14,40,57,1) 100%);
     color: white;
